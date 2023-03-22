@@ -1,23 +1,12 @@
 import logo from './logo.svg';
 import './App.css';
-
+//App.js는 웹사이트에서 화면출력 담당
+//리액트에서는 jsx문법 따름
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className="gray-background">
+      <img src={logo} lat="logo" />
+      <h2>let's develop management system!</h2>
     </div>
   );
 }
